@@ -1,0 +1,146 @@
+repo_name: Jelloeater/python-best-practices-cookiecutter
+report_id: 98f9ea6cad8f791a170496d8a5386164
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T17:45:27+00:00'
+requested_by: brendanator
+provider: github
+branch: main
+detected_tools_count: 11
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Jelloeater/python-best-practices-cookiecutter
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Jelloeater/python-best-practices-cookiecutter
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jelloeater/python-best-practices-cookiecutter
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Jelloeater/python-best-practices-cookiecutter/blob/main/{{cookiecutter.repo_name}}/Pipfile
+  detection_source: "{{cookiecutter.repo_name}}/Pipfile"
+  last_updated_by: Brendan Maginnis
+  last_updated_on: 2019-07-29 15:00:31.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/Jelloeater/python-best-practices-cookiecutter/blob/main/{{cookiecutter.repo_name}}/Pipfile
+  detection_source: "{{cookiecutter.repo_name}}/Pipfile"
+  last_updated_by: Emilien Klein
+  last_updated_on: 2020-09-17 09:12:57.000000000 Z
+- name: flake8
+  description: 'The modular source code checker: pep8, pyflakes and co'
+  package_url: https://pypi.org/project/flake8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/Jelloeater/python-best-practices-cookiecutter/blob/main/{{cookiecutter.repo_name}}/Pipfile
+  detection_source: "{{cookiecutter.repo_name}}/Pipfile"
+  last_updated_by: Brendan Maginnis
+  last_updated_on: 2019-07-29 15:00:31.000000000 Z
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/Jelloeater/python-best-practices-cookiecutter/blob/main/{{cookiecutter.repo_name}}/Pipfile
+  detection_source: "{{cookiecutter.repo_name}}/Pipfile"
+  last_updated_by: Brendan Maginnis
+  last_updated_on: 2019-07-29 15:00:31.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/Jelloeater/python-best-practices-cookiecutter/blob/main/{{cookiecutter.repo_name}}/Pipfile
+  detection_source: "{{cookiecutter.repo_name}}/Pipfile"
+  last_updated_by: Brendan Maginnis
+  last_updated_on: 2019-07-29 15:00:31.000000000 Z
+- name: pre-commit
+  description: A framework for managing and maintaining multi-language pre-commit
+    hooks
+  package_url: https://pypi.org/project/pre-commit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20560/default_d975dcf643a054134f39226d51d4a5fea9320efe.png
+  detection_source_url: https://github.com/Jelloeater/python-best-practices-cookiecutter/blob/main/{{cookiecutter.repo_name}}/Pipfile
+  detection_source: "{{cookiecutter.repo_name}}/Pipfile"
+  last_updated_by: Brendan Maginnis
+  last_updated_on: 2019-07-29 15:00:31.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/Jelloeater/python-best-practices-cookiecutter/blob/main/{{cookiecutter.repo_name}}/Pipfile
+  detection_source: "{{cookiecutter.repo_name}}/Pipfile"
+  last_updated_by: Brendan Maginnis
+  last_updated_on: 2019-07-29 15:00:31.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/Jelloeater/python-best-practices-cookiecutter/blob/main/{{cookiecutter.repo_name}}/Pipfile
+  detection_source: "{{cookiecutter.repo_name}}/Pipfile"
+  last_updated_by: Brendan Maginnis
+  last_updated_on: 2019-07-29 15:00:31.000000000 Z
